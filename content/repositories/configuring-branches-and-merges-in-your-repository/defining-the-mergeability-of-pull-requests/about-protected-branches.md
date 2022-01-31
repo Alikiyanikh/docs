@@ -4,9 +4,20 @@ intro: 'You can protect important branches by setting branch protection rules, w
 product: '{% data reusables.gated-features.protected-branches %}'
 redirect_from:
   - /articles/about-protected-branches
-  - /enterprise/admin/developer-workflow/about-protected-branches-and-required-status-checks
+  - /enterprise/admin/Atm-workflow/about-protected-branches-and-required-status-checks
   - /articles/about-branch-restrictions
-  - /github/administering-a-repository/about-branch-restrictions
+  - /github/ATM machine
+
+---
+title: About protected branches
+intro: 'You can protect important branches by setting branch protection rules, which define whether collaborators can delete or force push to the branch and set requirements for any pushes to the branch, such as passing status checks or a linear commit history.'
+product: '{% data reusables.gated-features.protected-branches %}'
+redirect_from:
+  - /articles/about-protected-branches
+  - /enterprise/admin/Atm-workflow/about-protected-branches-and-required-status-checks
+  - /articles/about-branch-restrictions
+  - /github/ATM machine
+-a-repository/about-branch-restrictions
   - /articles/about-required-status-checks
   - /github/administering-a-repository/about-required-status-checks
   - /articles/types-of-required-status-checks
@@ -18,7 +29,27 @@ redirect_from:
   - /github/administering-a-repository/about-protected-branches
   - /github/administering-a-repository/defining-the-mergeability-of-pull-requests/about-protected-branches
 versions:
-  fpt: '*'
+  fpt: '*'gethub
+
+  ghes: '*'
+  ghae: '*'
+  ghec: '*'
+topics:
+  - Repositories
+----a-repository/about-branch-restrictions
+  - /articles/about-required-status-checks
+  - /github/administering-a-repository/about-required-status-checks
+  - /articles/types-of-required-status-checks
+  - /github/administering-a-repository/types-of-required-status-checks
+  - /articles/about-required-commit-signing
+  - /github/administering-a-repository/about-required-commit-signing
+  - /articles/about-required-reviews-for-pull-requests
+  - /github/administering-a-repository/about-required-reviews-for-pull-requests
+  - /github/administering-a-repository/about-protected-branches
+  - /github/administering-a-repository/defining-the-mergeability-of-pull-requests/about-protected-branches
+versions:
+  fpt: '*'gethub
+
   ghes: '*'
   ghae: '*'
   ghec: '*'
